@@ -34,7 +34,7 @@ createFormButton.addEventListener('click', () => {
 
     // creating a delete button and mention the name of the form previously created!
     formItem.innerHTML = 
-    `<text style="padding:10px">Your Form ${formId}</text> <button class="delete-btn" onclick="deleteForm(${formId})">Delete</button>`
+    `<text style="padding:10px">Your Form ${formId}</text> <button class="delete-btn" style="font-size:30px" onclick="deleteForm(${formId})">Delete</button>`
     // console.log("formItem.innerHTML: ",  formItem.innerHTML)
 
     
