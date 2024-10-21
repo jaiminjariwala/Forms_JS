@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#homepage, #formCreationPage {
+    margin: 0 20px 0 20px;
+}
+.form-list {
+    margin-top: 20px;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-btn, .goBack {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #2a9623;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: #b61928;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.form-delete-message {
+    color: #b61928;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
