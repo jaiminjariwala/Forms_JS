@@ -10,6 +10,4 @@
 7. so to deal with it, either you can redirect to homepage and throw message "form has already been deleted"
 8. or to not use a backend server, use Hash Routing!
 
-### Hash Routing: It allows you to manage routes on client side using URL Fragment (that is... the part after `#` ).
-### The browser won't attempt to load a new page when Navigating via Hash.
-### Here, routing is simulated! Server isn't involved when navigating between sections of app.
+### Hash Routing: It allows you to manage routes on client side using URL Fragment (that is... the part after `#` ). <br>The browser won't attempt to load a new page when Navigating via Hash. <br>Here, routing is simulated! Server isn't involved when navigating between sections of app.
