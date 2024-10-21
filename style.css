@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 100px 0 0 0;
     padding: 20px;
     font-size: 30px;
 }
@@ -37,8 +37,8 @@ button {
 
 .add-btn, .goBack {
     display: inline-block;
-    font-size: 24px;
-    padding: 10px 20px;
+    font-size: 44px;
+    padding: 15px;
     background-color: #2a9623;
     color: white;
     border: none;
